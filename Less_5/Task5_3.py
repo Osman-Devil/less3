@@ -13,7 +13,7 @@ def gen_in_classes():
     j = 0
     while i < len(klasses):
         if i >= len(tutors):
-            yield None, klasses[i]
+            yield klasses[i],  None
             i += 1
             j += 1
         else:
